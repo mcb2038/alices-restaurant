@@ -1,1 +1,93 @@
-ECHO is on.
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, , shrink-to-fit=no">
+    <!---Link to an external CSS file-->
+    <link rel="stylesheet" href="styles.css">
+
+    <title>Alice's Restaurant</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#Menu">Menu</a></li>
+                <li><a href="#Hours">Hours</a></li>
+                <li><a href="#Location">Location</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="Name">
+        <h1>Alice's Restaurant> </h1>
+    </div>
+
+    <div class="Tagline">
+        <h1> You can have anything you want. </h1>
+    </div>
+
+    <div class="Logo">
+        <img src="images/table-food.png" alt="Alices's Restaurant logo" />
+    </div>
+
+    <div class="Hours">
+        <h3>Hours</h3>
+        <p>7AM to 10PM everyday</p>
+    </div>
+    <div class="Menu" id="Menu">
+        <ul>
+            <l1>Corn $19.99</l1>
+            <l1>Biscuits $150.00</l1>
+            <l1>Rice $100.11</l1>
+            <l1>Chicken $1111.99</l1>
+        </ul>
+    </div>
+
+    <div class="Address" id="Location">
+        <address>
+            1269 88th St NW
+            Great Barringtonm Massachusetts
+        </address>
+    </div>
+
+    <div class="Testimonials">
+        <ul>
+            <li class="testimonial">
+                <img src="images/woman.png">
+                <p class="name">Malicia Jackson</p>
+                <p>I had a Thanksgiving dinner that couldn't be beat.</p>
+            </li>
+
+            <li class="testimonial">
+                <img src="images/woman.png">
+                <p class="name">Malicia Jackson</p>
+                <p>I had a Thanksgiving dinner that couldn't be beat.</p>
+            </li>
+
+            <li class="testimonial">
+                <img src="images/woman.png">
+                <p class="name">Malicia Jackson (again)</p>
+                <p>I had a Thanksgiving dinner that couldn't be beat...again</p>
+            </li>
+        </ul>
+    </div>
+
+    <div class="Blog">
+        <a href="https://www.google.com">Blog</a>
+    </div>
+
+    <footer>
+        &copy; Alice's Restaurant
+    </footer>
+
+    <script>
+        console.log("This will print in the JavaScript console.");
+        console.log("Note that we put the script tags right before the closing body tag.")
+        console.log("This should say the tagline" + document.getElementsByClassName("Tagline"));
+    </script>
+</body>
+
+</html>
